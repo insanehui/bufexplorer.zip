@@ -446,6 +446,7 @@ function! s:MapKeys()
     nnoremap <script> <silent> <buffer> o             :call <SID>SelectBuffer()<CR>
     nnoremap <script> <silent> <buffer> p             :call <SID>ToggleSplitOutPathName()<CR>
     nnoremap <script> <silent> <buffer> q             :call <SID>Close()<CR>
+    nnoremap <script> <silent> <buffer> <Esc>         :call <SID>Close()<CR>
     nnoremap <script> <silent> <buffer> r             :call <SID>SortReverse()<CR>
     nnoremap <script> <silent> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
     nnoremap <script> <silent> <buffer> s             :call <SID>SortSelect()<CR>
