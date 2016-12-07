@@ -449,8 +449,8 @@ function! s:MapKeys()
 
     " added by insanehui
     nnoremap <script> <silent> <buffer> <Esc>         :call <SID>Close()<CR>
-    nnoremap <script> <silent> <buffer> ,1            1j<cr>
-    nnoremap <script> <silent> <buffer> ,2            2j<cr>
+    nmap  <silent> <buffer> ,1            1j<cr>
+    nmap  <silent> <buffer> ,2            2j<cr>
 
     nnoremap <script> <silent> <buffer> r             :call <SID>SortReverse()<CR>
     nnoremap <script> <silent> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
