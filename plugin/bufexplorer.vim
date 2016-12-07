@@ -451,6 +451,13 @@ function! s:MapKeys()
     nnoremap <script> <silent> <buffer> <Esc>         :call <SID>Close()<CR>
     nmap  <silent> <buffer> ,1            1j<cr>
     nmap  <silent> <buffer> ,2            2j<cr>
+    nmap  <silent> <buffer> ,3            3j<cr>
+    nmap  <silent> <buffer> ,4            4j<cr>
+    nmap  <silent> <buffer> ,5            5j<cr>
+    nmap  <silent> <buffer> ,6            6j<cr>
+    nmap  <silent> <buffer> ,7            7j<cr>
+    nmap  <silent> <buffer> ,8            8j<cr>
+    nmap  <silent> <buffer> ,9            9j<cr>
 
     nnoremap <script> <silent> <buffer> r             :call <SID>SortReverse()<CR>
     nnoremap <script> <silent> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
