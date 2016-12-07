@@ -447,10 +447,10 @@ function! s:MapKeys()
     nnoremap <script> <silent> <buffer> p             :call <SID>ToggleSplitOutPathName()<CR>
     nnoremap <script> <silent> <buffer> q             :call <SID>Close()<CR>
 
-    " addby insanehui
+    " added by insanehui
     nnoremap <script> <silent> <buffer> <Esc>         :call <SID>Close()<CR>
-    nnoremap <script> <silent> <buffer> ,1            1jG
-    nnoremap <script> <silent> <buffer> ,2            2jG
+    nnoremap <script> <silent> <buffer> ,1            1j<cr>
+    nnoremap <script> <silent> <buffer> ,2            2j<cr>
 
     nnoremap <script> <silent> <buffer> r             :call <SID>SortReverse()<CR>
     nnoremap <script> <silent> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
